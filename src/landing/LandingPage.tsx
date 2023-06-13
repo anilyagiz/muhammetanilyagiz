@@ -16,7 +16,7 @@ const LandingPage: React.FC = () => {
         Full Stack Web & ML Developer
         <br />
       </Title>
-      <Subtitle>About Me</Subtitle>
+      <Subtitle>Web Teknolojileri Dersi için demo</Subtitle>
       <ProjectList>
         <ProjectItem
           title="anilyagiz"
