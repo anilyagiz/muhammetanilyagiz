@@ -22,7 +22,7 @@ const LandingPage: React.FC = () => {
       <ProjectList>
         <ProjectItem
           title="anilyagiz"
-          href="site"
+          href="yetismediburası"
           target="_blank"
           rel="noreferrer"
         >
