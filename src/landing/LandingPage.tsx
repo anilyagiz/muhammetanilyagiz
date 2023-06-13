@@ -16,7 +16,9 @@ const LandingPage: React.FC = () => {
         Full Stack Web & ML Developer
         <br />
       </Title>
-      <Subtitle>Web Teknolojileri Dersi için demo</Subtitle>
+      <Subtitle>
+        Web Teknolojileri Dersi için demo(sınav esnasında geliştirildi)
+      </Subtitle>
       <ProjectList>
         <ProjectItem
           title="anilyagiz"
@@ -36,7 +38,7 @@ const LandingPage: React.FC = () => {
         <span className="prize">Amazon</span>
       </Notes>
       <Notes style={{ marginTop: 1 }}>
-        <span className="hack">Token Authentication Developer(2023-05/07)</span>
+        <span className="hack">Token Authentication Developer(2023-05/06)</span>
         <span className="prize">Visa</span>
       </Notes>
 
@@ -53,23 +55,23 @@ const LandingPage: React.FC = () => {
         <Image
           alt=""
           src="/assets/next-up.png"
-          width={180}
-          height={400}
+          width={512}
+          height={512}
           style={{
             borderRadius: 32,
             objectFit: 'cover',
-            filter: 'invert(1) grayscale(1) opacity(0.8)',
+            filter: ' opacity(0.8)',
           }}
         />
         <Image
           alt=""
-          src="/assets/next-up.png"
-          width={180}
-          height={400}
+          src="/assets/next-up1.png"
+          width={512}
+          height={512}
           style={{
             borderRadius: 32,
             objectFit: 'cover',
-            filter: 'invert(1) grayscale(1) opacity(0.8)',
+            filter: 'opacity(0.8)',
           }}
         />
       </div>

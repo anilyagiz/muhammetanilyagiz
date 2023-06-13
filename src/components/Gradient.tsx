@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-const COLORS = ['#000', '#000', '#000', '#18613d'];
+const COLORS = ['#000', '#000', '#060d2d', '#c8193f'];
 const GRADIENT_URL = `https://gradientgen.vercel.app?colors=${COLORS.map((v) =>
   v.replace('#', ''),
 ).join(',')}`;
