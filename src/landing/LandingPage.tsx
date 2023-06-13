@@ -72,60 +72,6 @@ const LandingPage: React.FC = () => {
             filter: 'invert(1) grayscale(1) opacity(0.8)',
           }}
         />
-        <Image
-          alt=""
-          src="/assets/car.webp"
-          width={180}
-          height={400}
-          style={{
-            borderRadius: 32,
-            objectFit: 'cover',
-            filter: 'grayscale(1) opacity(0.8)',
-          }}
-        />
-      </div>
-      <div
-        style={{
-          marginTop: 32,
-          marginLeft: 12,
-          marginRight: 12,
-          display: 'flex',
-          gap: 9,
-        }}
-      >
-        <Image
-          alt=""
-          src="/assets/next-up.png"
-          width={280}
-          height={400}
-          style={{
-            borderRadius: 32,
-            objectFit: 'cover',
-            filter: 'invert(1) grayscale(1) opacity(0.8)',
-          }}
-        />
-        <Image
-          alt=""
-          src="/assets/next-up.png"
-          width={280}
-          height={400}
-          style={{
-            borderRadius: 32,
-            objectFit: 'cover',
-            filter: 'invert(1) grayscale(1) opacity(0.8)',
-          }}
-        />
-        <Image
-          alt=""
-          src="/assets/car.webp"
-          width={280}
-          height={400}
-          style={{
-            borderRadius: 32,
-            objectFit: 'cover',
-            filter: 'grayscale(1) opacity(0.8)',
-          }}
-        />
       </div>
       <PhaseList>
         {PHASES.map((title, index) => (
