@@ -1,0 +1,36 @@
+{
+  "name": "inevitable.team",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/inevitable-changes/inevitable.team",
+  "author": "Junho Yeo <i@junho.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^7.6.19",
+    "next": "12.1.7-canary.46",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.5",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "next-plugin-svgr": "^1.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
