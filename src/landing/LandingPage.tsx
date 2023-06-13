@@ -53,8 +53,8 @@ const LandingPage: React.FC = () => {
         <Image
           alt=""
           src="/assets/next-up.png"
-          width={180}
-          height={400}
+          width={1020}
+          height={1020}
           style={{
             borderRadius: 32,
             objectFit: 'cover',
@@ -64,7 +64,7 @@ const LandingPage: React.FC = () => {
         <Image
           alt=""
           src="/assets/next-up.png"
-          width={180}
+          width={1020}
           height={400}
           style={{
             borderRadius: 32,
@@ -72,18 +72,7 @@ const LandingPage: React.FC = () => {
             filter: 'invert(1) grayscale(1) opacity(0.8)',
           }}
         />
-        <Image
-          alt=""
-          src="/assets/car.webp"
-          width={180}
-          height={400}
-          style={{
-            borderRadius: 32,
-            objectFit: 'cover',
-            filter: 'grayscale(1) opacity(0.8)',
-          }}
-        />
-      </div>
+        
       <div
         style={{
           marginTop: 32,
